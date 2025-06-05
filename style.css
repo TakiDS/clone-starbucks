@@ -1,0 +1,220 @@
+@import url("assents/fonts/sodo-sans/stylesheet.css");
+
+*{
+    font-family: "SoDo sans";
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #32312d;
+    font-weight: 400;
+    
+    font-family: 'SoDo Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+}
+.header{
+    background-color: brown;
+    box-shadow: 200PX;
+    box-shadow: 1px 1px 3px #DCDCDC;
+    
+}
+
+.area-menu{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100PX;
+   
+    
+    
+}
+
+
+.Logo{
+    padding: 40px;
+    width: 51px;
+    height: 51px;
+}
+
+.menu-left {
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    align-items: center; 
+    text-transform: uppercase;
+    
+    
+
+    & ul{
+        list-style: none;
+        display: flex;
+        gap: 15px;
+        letter-spacing: 1px;
+        padding-left: 0px;
+        & :hover{
+            color: green;
+        }
+    }
+    
+   
+}
+.menu-right{
+    
+    font-size: 14px;
+    
+    display: flex;
+    align-items: center; 
+    padding-right: 40px;
+    gap: 30px;
+
+}
+span{
+    
+    font-weight: 800;
+}
+.image{
+    width: 120px;
+   
+}
+
+#icon-local{
+    width: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+p {
+    text-align: center;
+    color: #1E3932;
+}
+li {
+    list-style: none;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 33px;
+    & p{
+        font-size: 18px;
+        line-height: 1.75;
+    }
+}
+
+.div-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.div-banner .mensagem{
+    width: 720px;
+    height: 420px;
+    background-color: #D4E9E2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.botao{
+    margin: 40px;
+    border: 1px solid;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0px 0px 24px;
+    color: #1E3932;
+}
+
+#image-banner3{
+    width: 720px;
+    height: 480px;
+}
+
+#banner3{
+    height: 480px;
+}
+
+.footer{
+    
+    
+    display: flex;
+    padding: 48px 40px 32px 131px;
+    box-shadow: -0px -0px 5px gray;
+}
+
+.sobre{
+    display: flex;
+    gap: 30px;
+    
+   
+}
+
+.sobre .itens{
+    
+    & h3{
+        padding-bottom: 18px;
+        font-size: 18px;
+        line-height: 1.411;
+        font-weight: 400;
+        margin: 0;
+        margin-bottom: 2.4rem;
+    }
+    & li{
+        
+        padding: 0px 0px 28px;
+    }
+    & a{
+        font-size: 14px;
+        color: gray;
+        
+    }
+    & a:hover{
+        color: black;
+    }
+}
+
+hr{
+   
+    width: 1700px;
+}
+
+.redes-sociais{
+    & ul {
+        display: flex;
+        gap: 15px;
+        padding-top: 45px;
+    }
+    
+}
+
+.politicas {
+    & li{
+        border-right: solid 1px;
+        padding-right:  23px;
+        
+        
+    }
+    & :hover{
+        color: gray;
+    }
+}
+
+#copyright{
+    & p{
+         padding: 16px 0px;
+    margin: 14px 0px;
+    color: gray;
+    font-size: 14px;
+    }
+   
+}
